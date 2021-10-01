@@ -1,0 +1,25 @@
+{
+  "name": "trafflilog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Ofir Shavit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "google-map-react": "^2.1.10",
+    "ts-node": "^10.1.0",
+    "tslib": "^2.3.1",
+    "uuid": "^8.3.2",
+    "workerpool": "^6.1.5"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.1",
+    "@types/workerpool": "^6.1.0"
+  }
+}
